@@ -28,7 +28,6 @@ class FlightTable:
 def main():
     flight_table = FlightTable()
 
-    # Adding flights to the flight table
     flight_table.add_flight(Flight("AI161E90", "BLR", "BOM", 5600))
     flight_table.add_flight(Flight("BR161F91", "BOM", "BBI", 6750))
     flight_table.add_flight(Flight("AI161F99", "BBI", "BLR", 8210))
